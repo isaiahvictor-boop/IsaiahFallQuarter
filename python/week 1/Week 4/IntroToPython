@@ -1,0 +1,4 @@
+Num1 = 7
+Num2 = 8
+Num3 = num1 + Num2
+Prin(Num3)
