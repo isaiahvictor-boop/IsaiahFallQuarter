@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <Link rel"stylesheet"href="{{url_for('static', filename='bootstrap-6.0.0-alpha.1-dist/css/bootstrap.min.css')}}">
+<!-- title tag goes here! -->
+     <title>
+         {% block title %} isaiahs CSR Website {% endblock %}
+     </title>
+</head>
+<body>
+
+    <div class="header">
+        {% block header %} {% endblock %}
+    </div>
+    
+        <div class="navbar">
+        {% block Navbar %} {% endblock %}
+        </div>
+
+        <div class="body">
+        {% block Body %} {% endblock %}
+        </div>
+
+        <div class="footer">
+        {% block Footer %} {% endblock %}
+        </div>
+   
+</body>
+</html>
